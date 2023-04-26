@@ -1,6 +1,5 @@
 package com.learning.springBoot.courses.controller;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -14,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.learning.springBoot.courses.bean.Course;
-import com.learning.springBoot.courses.bean.CourseRepository;
+import com.learning.springBoot.courses.repository.CourseRepository;
 
 @RestController
 public class CourseController {
